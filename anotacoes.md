@@ -6,7 +6,14 @@ justify-content: space-between>>espaço entre os elementos.
 
 align-items: center>>alinha verticalmente
 
+justify-content: space-around>>espaço em volta dos elementos
 
+    display: flex; 
+    flex-direction: column; (serve para colocar o flex em colunas)
+    flex-wrap: wrap;>> para quebrar a próxima coluna
+.conteudoPrincipal-cursos-link:nth-child(4n){=====>>>>serve para pegar todo multiplo de 4, então todos elemento que são multiplos de 4 vai ter a margin zerada.
+    margin-right: 0;
+}
 
 <h3>OBS</h3>
 
